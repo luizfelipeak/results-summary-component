@@ -2,13 +2,13 @@
 
 :root {
   --light-red: hsl(0, 100%, 67%);
-  --light-red-bg: hsla(0, 100%, 67%, 0.1);
+  --light-red-bg: hsla(0, 100%, 67%, 0.05);
   --orange-yellow: hsl(39, 100%, 56%);
-  --orange-yellow-bg: hsla(39, 100%, 56%, 0.1);
+  --orange-yellow-bg: hsla(39, 100%, 56%, 0.05);
   --green-teal: hsl(166, 100%, 37%);
-  --green-teal-bg: hsl(166, 100%, 37%, 0.1);
+  --green-teal-bg: hsla(166, 100%, 37%, 0.05);
   --cobalt-blue: hsl(234, 85%, 45%);
-  --cobalt-blue-bg: hsl(234, 85%, 45%, 0.1);
+  --cobalt-blue-bg: hsla(234, 85%, 45%, 0.05);
 
   --light-slate-blue: hsl(252, 100%, 67%);
   --light-royal-blue: hsl(241, 81%, 54%);
@@ -76,7 +76,7 @@ main {
   display: grid;
   grid-template-rows: min-content auto;
   overflow: hidden;
-  box-shadow: 0.5em 0.5em 1em var(--pale-blue);
+  box-shadow: 1em 1em 3em var(--pale-blue);
 }
 
 .card-result-info {
@@ -92,8 +92,8 @@ main {
   background: var(--gradient);
   color: var(--light-lavender);
 
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 .result-title {
@@ -260,7 +260,7 @@ footer {
 
   .result {
     padding: 2.5em 3em;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
   }
 
   .result-title {
